@@ -1,0 +1,29 @@
+{
+  "name": "weemen/elasticsearch-repository",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Weemen\\ElasticsearchRespository\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Weemen\\ElasticsearchRespository\\": "test"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0-dev",
+    "elasticsearch/elasticsearch": "~1.0",
+    "broadway/broadway": "~0.5"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/weemen/blogpost-domain"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/weemen/event-sourcing.git"
+    }
+  ]
+}
