@@ -1,6 +1,6 @@
 <?php
 
-namespace Weemen\ElasticsearchRepository\Readmodel;
+namespace Weemen\ElasticsearchRepository\ReadModel;
 
 
 use Broadway\ReadModel\RepositoryInterface;
