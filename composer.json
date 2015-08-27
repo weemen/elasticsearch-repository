@@ -3,12 +3,12 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "Weemen\\ElasticsearchRespository\\": "src"
+      "Weemen\\ElasticsearchRepository\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Weemen\\ElasticsearchRespository\\": "test"
+      "Weemen\\ElasticsearchRepository\\": "test"
     }
   },
   "require": {
