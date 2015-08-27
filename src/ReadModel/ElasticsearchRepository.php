@@ -11,7 +11,7 @@ use Elasticsearch\Common\Exceptions\Missing404Exception;
 use Simgroep\EventSourcing\EventSourcingBundle\ReadModel\ClearableRepositoryInterface;
 
 
-class ElasticSearchRepository implements RepositoryInterface, ClearableRepositoryInterface
+class ElasticsearchRepository implements RepositoryInterface, ClearableRepositoryInterface
 {
     private $client;
     private $serializer;
