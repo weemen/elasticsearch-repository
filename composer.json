@@ -15,14 +15,14 @@
     "php": ">=7.0.0-dev",
     "elasticsearch/elasticsearch": "~1.0",
     "broadway/broadway": "~0.5",
-    "simgroep/event-sourcing": "dev-feature/repla_step_by_step_generator_style",
+    "simgroep/event-sourcing": "dev-master",
     "jurjean/spray-serializer-bundle": "dev-master",
     "jurjean/spray-serializer": "dev-master"
   },
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/weemen/event-sourcing.git"
+      "url": "https://github.com/simgroep/event-sourcing.git"
     }
   ]
 }
